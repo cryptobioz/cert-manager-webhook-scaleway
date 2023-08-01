@@ -10,3 +10,5 @@ require (
 	k8s.io/apimachinery v0.20.0
 	k8s.io/client-go v0.20.0
 )
+
+replace github.com/scaleway/cert-manager-webhook-scaleway => github.com/cryptobioz/cert-manager-webhook-scaleway v0.0.0-20230801102719-4e943a5ee3d9

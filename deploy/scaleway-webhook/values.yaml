@@ -9,6 +9,11 @@ image:
   pullPolicy: IfNotPresent
   imagePullSecrets: []
 
+# Use these variables to configure the HTTP_PROXY environment variables
+# http_proxy: "http://proxy:8080"
+# https_proxy: "https://proxy:8080"
+# no_proxy: 127.0.0.1,localhost
+
 nameOverride: ""
 fullnameOverride: ""
 
